@@ -1,0 +1,269 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #ccc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.input {
+    width: 100%;
+    box-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1c8adb;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea {
+    resize: none;
+    font-family: Arial;
+}
+
+button {
+    background-color: #1c8adb;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.menubar {
+    width: 100%;
+    background-color: #1c8adb;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.category {
+    margin-right: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1c8adb;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.inactive) {
+    background-color: #197bc0;
+}
+
+th {
+    text-align: left;
+    width: 30%;
+    color: white;
+}
+
+.logo {
+    text-align: left;
+    width: 2%;
+    color: white;
+    vertical-align: center;
+    
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.imgmenu {
+    text-align: left;
+    margin: 0px 0 0px 0;
+    padding: 0%;
+}
+
+img.book {
+    width: 100%;
+}
+
+img.cat {
+    width: 20%;
+    border-radius: 20%;
+}
+
+img.manybooks {
+    width: 30%;
+    margin: 8px 0;
+}
+
+img.blogabout {
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+}
+
+img.indeximg {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.header {
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.indexleft {
+    float: left;
+    width: 20%;
+}
+
+.indexright {
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menucard {
+    margin: 5px;
+    background-color: #ccc;
+}
+
+.menuhead {
+    padding: 10px;
+    background-color: #1c8adb;
+    color: white;
+    font-weight: bold;
+}
+
+.menubody {
+    padding: 10px;
+}
+
+.bookshelf {
+    padding: 2px;
+    background-color: #ccc;
+}
+
+div.book {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 2px;
+    background-color:white;
+    height: 330px;
+}
+
+.bookhead {
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #1c8adb;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bookimg {
+    font-size: 16px;
+    float: left;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 20px;
+}
+
+.bookdetails {
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bookbutton {
+    font-size: 16px;
+    float: right;
+    width: 25%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.usertable {
+    color: black;
+    border: 1px solid #1c8adb;
+    background-color: white;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+} 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex"/>
+    <title> Books4U - Admin Login Success</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/adminpanel.js"></script>
+</head>
+
+<body>
+    <table class="menubar">
+        <tr>
+            <th class="logo">
+                <a href="index.html" class="inactive">
+                    <img src="img/book.png" alt="Book" class="book">
+                </a>
+            </th>
+            <th>Books4U</th>
+            <th>
+                <ul>
+                    <li style="float:right">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li style="float:right">
+                        <a href="login.html">Logout</a>
+                    </li>
+                    <li style="float:right">
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li style="float:right">
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </th>
+        </tr>
+    </table>
+    <div class="header">Welcome Admin!</div>
+    <div class="card">
+        <div class="menucard">
+            <div class="menuhead">Manage users</div>
+            <div class="menubody">
+                <input class="input" type="text" name="inputSearchUser" id="inputSearchUser" placeholder="Search user by username"></input>
+                <button id="searchUserButton">Start search</button>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="menucard">
+            <div class="menuhead">Results</div>
+            <div class="menubody">
+                <div id="searchResults"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Books4U - Welcome </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/"></script>
+</head>
+
+<body>
+    <table class="menubar">
+        <tr>
+            <th class="logo">
+                <a href="index.html" class="inactive">
+                    <img src="img/book.png" alt="Book" class="book">
+                </a>
+            </th>
+            <th>Books4U</th>
+            <th>
+                <ul>
+                    <li style="float:right">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li style="float:right">
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li style="float:right">
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li style="float:right">
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </th>
+        </tr>
+    </table>
+    <div class="header">Books4U - our service, your books</div>
+
+    <div class="card">
+        <img src="img/manybooks_small.jpg" Alt="ManyBooksSmall" width="100%"></img>
+    </div>
+    <div class="indexleft">
+        <div class="card">
+            <div class="menucard">
+                <div class="menuhead">Suche</div>
+                <div class="menubody">
+                    <input class="input" type="text" name="inputSearch" id="inputSearch" placeholder="Search"></input>
+                    <button id="search" onclick="search()">Start search</button>
+                </div>
+            </div>
+            <div class="menucard">
+                <div class="menuhead">Category</div>
+                <div class="menubody">
+                    <label class="category">
+                        <input type="checkbox" name="category" value="fantays"> Fantasy
+                    </label>
+                    <label class="category">
+                        <input type="checkbox" name="category" value="scifi"> Science fiction
+                    </label>
+                    <label class="category">
+                        <input type="checkbox" name="category" value="drama"> Drama
+                    </label>
+                    <label class="category">
+                        <input type="checkbox" name="category" value="actionAdventure"> Action and Adventure
+                    </label>
+                    <label class="category">
+                        <input type="checkbox" name="category" value="romance"> Romance
+                    </label>
+                    <label class="category">
+                        <input type="checkbox" name="category" value="mystery"> Mystery
+                    </label>
+                    <label class="category">
+                        <input type="checkbox" name="category" value="guide"> Guide
+                    </label>
+                    <label class="category">
+                        <input type="checkbox" name="category" value="history"> History
+                    </label>
+                    <label class="category">
+                        <input type="checkbox" name="category" value="comic"> Comics
+                    </label>
+                    <button id="search" onclick="search()">Get books</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="indexright">
+        <div class="card">
+            <div class="bookshelf">
+                <div class="book">
+                    <h1 class="bookhead">Harry Potter and the Philosopher's Stone</h1>
+                    <div class="rightcolumn">
+                        <img class="bookimg" src="img/HP1.jpg"></img>
+                    </div>
+                    <div class="leftcolumn">
+                        <table class="bookdetails">
+                            <tr>
+                                <td>Author:</td>
+                                <td>J.K. Rowling</td>
+                            </tr>
+                            <tr>
+                                <td>Country:</td>
+                                <td>United Kingdom</td>
+                            </tr>
+                            <tr>
+                                <td>Language:</td>
+                                <td>English</td>
+                            </tr>
+                            <tr>
+                                <td>Genre:</td>
+                                <td>Fantasy</td>
+                            </tr>
+                            <tr>
+                                <td>Series:</td>
+                                <td>Harry Potter</td>
+                            </tr>
+                            <tr>
+                                <td>Release number:</td>
+                                <td>1st in series</td>
+                            </tr>
+                            <tr>
+                                <td>Followed by:</td>
+                                <td>Harry Potter and the Chamber of Secrets</td>
+                            </tr>
+                            <tr>
+                                <td>Publication date:</td>
+                                <td>26 June 1997 (UK)</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:</td>
+                                <td>0-7475-3269-9</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button class="bookbutton" id="bookbutton">more</button>
+                </div>
+                <div class="book">
+                    <h1 class="bookhead">Harry Potter and the Chamber of Secrets</h1>
+                    <div class="rightcolumn">
+                        <img class="bookimg" src="img/HP2.jpg"></img>
+                    </div>
+                    <div class="leftcolumn">
+                        <table class="bookdetails">
+                            <tr>
+                                <td>Author:</td>
+                                <td>J.K. Rowling</td>
+                            </tr>
+                            <tr>
+                                <td>Country:</td>
+                                <td>United Kingdom</td>
+                            </tr>
+                            <tr>
+                                <td>Language:</td>
+                                <td>English</td>
+                            </tr>
+                            <tr>
+                                <td>Genre:</td>
+                                <td>Fantasy</td>
+                            </tr>
+                            <tr>
+                                <td>Series:</td>
+                                <td>Harry Potter</td>
+                            </tr>
+                            <tr>
+                                <td>Release number:</td>
+                                <td>2nd in series</td>
+                            </tr>
+                            <tr>
+                                <td>Followed by:</td>
+                                <td>Harry Potter and the Prisoner of Azkaban</td>
+                            </tr>
+                            <tr>
+                                <td>Publication date:</td>
+                                <td>2 July 1998 (UK)</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:</td>
+                                <td>0-7475-3849-2</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button class="bookbutton" id="bookbutton">more</button>
+                </div>
+                <div class="book">
+                    <h1 class="bookhead">Harry Potter and the Prisoner of Azkaban</h1>
+                    <div class="rightcolumn">
+                        <img class="bookimg" src="img/HP3.jpg"></img>
+                    </div>
+                    <div class="leftcolumn">
+                        <table class="bookdetails">
+                            <tr>
+                                <td>Author:</td>
+                                <td>J.K. Rowling</td>
+                            </tr>
+                            <tr>
+                                <td>Country:</td>
+                                <td>United Kingdom</td>
+                            </tr>
+                            <tr>
+                                <td>Language:</td>
+                                <td>English</td>
+                            </tr>
+                            <tr>
+                                <td>Genre:</td>
+                                <td>Fantasy</td>
+                            </tr>
+                            <tr>
+                                <td>Series:</td>
+                                <td>Harry Potter</td>
+                            </tr>
+                            <tr>
+                                <td>Release number:</td>
+                                <td>3rd in series</td>
+                            </tr>
+                            <tr>
+                                <td>Followed by:</td>
+                                <td>Harry Potter and the Goblet of Fire</td>
+                            </tr>
+                            <tr>
+                                <td>Publication date:</td>
+                                <td>8 July 1999 (UK)</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:</td>
+                                <td>0-7475-4215-5</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button class="bookbutton" id="bookbutton">more</button>
+                </div>
+                <div class="book">
+                    <h1 class="bookhead">Harry Potter and the Goblet of Fire</h1>
+                    <div class="rightcolumn">
+                        <img class="bookimg" src="img/HP4.jpg"></img>
+                    </div>
+                    <div class="leftcolumn">
+                        <table class="bookdetails">
+                            <tr>
+                                <td>Author:</td>
+                                <td>J.K. Rowling</td>
+                            </tr>
+                            <tr>
+                                <td>Country:</td>
+                                <td>United Kingdom</td>
+                            </tr>
+                            <tr>
+                                <td>Language:</td>
+                                <td>English</td>
+                            </tr>
+                            <tr>
+                                <td>Genre:</td>
+                                <td>Fantasy</td>
+                            </tr>
+                            <tr>
+                                <td>Series:</td>
+                                <td>Harry Potter</td>
+                            </tr>
+                            <tr>
+                                <td>Release number:</td>
+                                <td>4th in series</td>
+                            </tr>
+                            <tr>
+                                <td>Followed by:</td>
+                                <td>Harry Potter and the Order of the Phoenix</td>
+                            </tr>
+                            <tr>
+                                <td>Publication date:</td>
+                                <td>8 July 2000</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:</td>
+                                <td>0-7475-4624-X</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button class="bookbutton" id="bookbutton">more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

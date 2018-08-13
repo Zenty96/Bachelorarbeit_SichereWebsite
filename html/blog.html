@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Books4U - Blog </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/blog.js"></script>
+</head>
+
+<body>
+    <table class="menubar">
+        <tr>
+            <th class="logo">
+                <a href="index.html" class="inactive">
+                    <img src="img/book.png" alt="Book" class="book">
+                </a>
+            </th>
+            <th>Books4U</th>
+            <th>
+                <ul>
+                    <li style="float:right">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li style="float:right">
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li style="float:right">
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li style="float:right">
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </th>
+        </tr>
+    </table>
+    <div class="header">
+        Blog Books4U
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>New entry:</h2>
+                <input class="input" type="text" name="inputBlogHeading" id="inputBlogHeading" placeholder="Heading"></input>
+                <input class="input" type="text" name="inputBlogUser" id="inputBlogUser" placeholder="Username"></input>
+                <textarea class="input" type="text" name="inputBlogText" id="inputBlogText" placeholder="Your text" rows="5"></textarea>
+
+                <button id="submit" onclick="submitBlogEntry()">Submit</button>
+            </div>
+            <div class="entries" id="entries">
+                <div class="card">
+                    <h2>Lorem Ipsum</h2>
+                    <h5>uploaded 30.07.2018 by User1629</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus, augue dapibus mattis pharetra,
+                        nunc purus vulputate ex, eu vulputate ex ante id magna. Sed a magna porta eros egestas feugiat. Pellentesque
+                        at tellus et erat mattis luctus eu id orci. Class aptent taciti sociosqu ad litora torquent per conubia
+                        nostra, per inceptos himenaeos. In maximus eu massa eu aliquam. Suspendisse non accumsan enim, non
+                        luctus nulla. Nullam egestas augue eget scelerisque vulputate.
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Duis ac dui lacus.</h2>
+                    <h5>uploaded 29.07.2018 by Butterfly</h5>
+                    <p>Fusce sit amet lectus scelerisque, fermentum orci ac, maximus justo. Duis sit amet ex ante. Nunc lobortis
+                        in ligula a facilisis. In ornare non leo quis lobortis. Donec aliquam turpis eget dolor faucibus
+                        luctus. Morbi luctus dignissim nunc, rutrum laoreet sem volutpat at. Curabitur consequat et nisi
+                        ut hendrerit. Duis eleifend auctor diam. Morbi laoreet nisl eget dui laoreet viverra. Donec ac nibh
+                        ac orci volutpat tincidunt non sed lectus. Sed facilisis orci in ipsum mattis tempor. Nullam ut nunc
+                        rhoncus, vehicula risus ut, ornare tellus.
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Cras eget</h2>
+                    <h5>uploaded 15.07.2018 by kpfouz</h5>
+                    <p>Cras eget dapibus massa. Proin a aliquet ligula. Mauris porta elementum leo, a vestibulum eros fermentum
+                        sit amet. Curabitur a egestas diam. Sed vitae vulputate erat. Duis viverra orci id mauris tincidunt
+                        viverra. Aliquam erat volutpat. Sed euismod a nisi at luctus. Sed nec eros consectetur, commodo ligula
+                        sit amet, pretium dolor. Proin non erat ac nunc fringilla consequat non id mi. Nunc nec lacus arcu.
+                        In interdum dui quis eros rutrum, nec ultricies enim cursus.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About the Blog</h2>
+                <div>
+                    <img src="img/manybooks.jpg" Alt="ManyBooks" class="blogabout">
+                </div>
+                <p>Nulla facilisi. Maecenas scelerisque pharetra nisl, vel dapibus nulla convallis semper. Donec facilisis,
+                    tortor et accumsan tincidunt, dolor odio posuere neque, vel ultricies nunc neque et purus. </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
